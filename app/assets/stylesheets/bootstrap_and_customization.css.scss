@@ -1,0 +1,137 @@
+$body-bg: white;
+$navbar-default-bg: black;
+$navbar-default-link-color: white;
+$brand-primary: black;
+
+@import 'bootstrap';
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+        padding-top: 4px;
+        padding-right-value: 4px;
+        padding-bottom: 4px;
+        padding-left-value: 4px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    line-height: 1;
+    border: 1px solid #DDD;
+        border-top-width: 1px;
+        border-right-width-value: 1px;
+        border-right-width-ltr-source: physical;
+        border-right-width-rtl-source: physical;
+        border-bottom-width: 1px;
+        border-left-width-value: 1px;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-top-style: solid;
+        border-right-style-value: solid;
+        border-right-style-ltr-source: physical;
+        border-right-style-rtl-source: physical;
+        border-bottom-style: solid;
+        border-left-style-value: solid;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-top-color: #DDD;
+        border-right-color-value: #DDD;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+        border-bottom-color: #DDD;
+        border-left-color-value: #DDD;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        -moz-border-top-colors: none;
+        -moz-border-right-colors: none;
+        -moz-border-bottom-colors: none;
+        -moz-border-left-colors: none;
+        border-image-source: none;
+        border-image-slice: 100% 100% 100% 100%;
+        border-image-width: 1 1 1 1;
+        border-image-outset: 0 0 0 0;
+        border-image-repeat: stretch stretch;
+    border-radius: 4px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075);
+}
+.thumbnail > img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+        margin-left-value: auto;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+    margin-right: auto;
+        margin-right-value: auto;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+}
+.span3 {
+    width: 220px;
+}
+[class*="span"] {
+    float: left;
+    margin-left: 20px;
+        margin-left-value: 20px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+}
+
+.hero-unit {
+    background: none repeat scroll 0% 0% #FFF;
+        background-color: #FFF;
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    padding: 0px;
+        padding-top: 0px;
+        padding-right-value: 0px;
+        padding-bottom: 0px;
+        padding-left-value: 0px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+}
+
+.span3 {
+    width: 220px;
+}
+[class*="row"] {
+    float: center;
+    margin-center: 20px;
+        margin-center-value: 20px;
+        margin-center-source: physical;
+        margin-center-source: physical;
+}
+#footer {
+background-color: #f5f5f5;
+}
+
+#push, #footer {
+height: 60px;
+}
+div {
+display: block;
+}
+
+.container {
+width: auto;
+max-width: 680px;
+}
+
+.container {
+margin-right: auto;
+margin-left: auto;
+}
+container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 940px;
+}
